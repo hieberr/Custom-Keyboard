@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>HodorBoard.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>E4A1B78B1B8673AF003FFC30</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E4A1B7A41B867409003FFC30</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -7,14 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E49305C71B86D65C003DC06F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49305C61B86D65C003DC06F /* AVFoundation.framework */; };
 		E4A1B7901B8673AF003FFC30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A1B78F1B8673AF003FFC30 /* AppDelegate.swift */; };
 		E4A1B7921B8673AF003FFC30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A1B7911B8673AF003FFC30 /* ViewController.swift */; };
 		E4A1B7951B8673AF003FFC30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A1B7931B8673AF003FFC30 /* Main.storyboard */; };
 		E4A1B7971B8673AF003FFC30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A1B7961B8673AF003FFC30 /* Assets.xcassets */; };
 		E4A1B79A1B8673AF003FFC30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A1B7981B8673AF003FFC30 /* LaunchScreen.storyboard */; };
+		E4A1B7A81B867409003FFC30 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A1B7A71B867409003FFC30 /* KeyboardViewController.swift */; };
+		E4A1B7AC1B867409003FFC30 /* HodorBoard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E4A1B7A51B867409003FFC30 /* HodorBoard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E4A1B7B21B867701003FFC30 /* hodorHeadShot.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A1B7B11B867701003FFC30 /* hodorHeadShot.png */; };
+		E4A1B7B41B86A83F003FFC30 /* Hodor.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4A1B7B31B86A83F003FFC30 /* Hodor.wav */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E4A1B7AA1B867409003FFC30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4A1B7841B8673AF003FFC30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4A1B7A41B867409003FFC30;
+			remoteInfo = HodorBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4A1B7B01B867409003FFC30 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E4A1B7AC1B867409003FFC30 /* HodorBoard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		E49305C61B86D65C003DC06F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		E4A1B78C1B8673AF003FFC30 /* Custom Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A1B78F1B8673AF003FFC30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4A1B7911B8673AF003FFC30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +52,13 @@
 		E4A1B7961B8673AF003FFC30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4A1B7991B8673AF003FFC30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4A1B79B1B8673AF003FFC30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4A1B7A51B867409003FFC30 /* HodorBoard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HodorBoard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A1B7A71B867409003FFC30 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		E4A1B7A91B867409003FFC30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4A1B7B11B867701003FFC30 /* hodorHeadShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hodorHeadShot.png; sourceTree = "<group>"; };
+		E4A1B7B31B86A83F003FFC30 /* Hodor.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Hodor.wav; sourceTree = "<group>"; };
+		E4A1B7B51B86AD03003FFC30 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		E4A1B7B71B86AD8A003FFC30 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,13 +69,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E4A1B7A21B867409003FFC30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49305C71B86D65C003DC06F /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		E4A1B7831B8673AE003FFC30 = {
 			isa = PBXGroup;
 			children = (
+				E49305C61B86D65C003DC06F /* AVFoundation.framework */,
+				E4A1B7B71B86AD8A003FFC30 /* CoreAudioKit.framework */,
+				E4A1B7B51B86AD03003FFC30 /* CoreAudio.framework */,
 				E4A1B78E1B8673AF003FFC30 /* Custom Keyboard */,
+				E4A1B7A61B867409003FFC30 /* HodorBoard */,
 				E4A1B78D1B8673AF003FFC30 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				E4A1B78C1B8673AF003FFC30 /* Custom Keyboard.app */,
+				E4A1B7A51B867409003FFC30 /* HodorBoard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +114,17 @@
 			path = "Custom Keyboard";
 			sourceTree = "<group>";
 		};
+		E4A1B7A61B867409003FFC30 /* HodorBoard */ = {
+			isa = PBXGroup;
+			children = (
+				E4A1B7A71B867409003FFC30 /* KeyboardViewController.swift */,
+				E4A1B7B31B86A83F003FFC30 /* Hodor.wav */,
+				E4A1B7A91B867409003FFC30 /* Info.plist */,
+				E4A1B7B11B867701003FFC30 /* hodorHeadShot.png */,
+			);
+			path = HodorBoard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +135,34 @@
 				E4A1B7881B8673AF003FFC30 /* Sources */,
 				E4A1B7891B8673AF003FFC30 /* Frameworks */,
 				E4A1B78A1B8673AF003FFC30 /* Resources */,
+				E4A1B7B01B867409003FFC30 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E4A1B7AB1B867409003FFC30 /* PBXTargetDependency */,
 			);
 			name = "Custom Keyboard";
 			productName = "Custom Keyboard";
 			productReference = E4A1B78C1B8673AF003FFC30 /* Custom Keyboard.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E4A1B7A41B867409003FFC30 /* HodorBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4A1B7AD1B867409003FFC30 /* Build configuration list for PBXNativeTarget "HodorBoard" */;
+			buildPhases = (
+				E4A1B7A11B867409003FFC30 /* Sources */,
+				E4A1B7A21B867409003FFC30 /* Frameworks */,
+				E4A1B7A31B867409003FFC30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HodorBoard;
+			productName = HodorBoard;
+			productReference = E4A1B7A51B867409003FFC30 /* HodorBoard.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +175,10 @@
 				TargetAttributes = {
 					E4A1B78B1B8673AF003FFC30 = {
 						CreatedOnToolsVersion = 7.0;
+					};
+					E4A1B7A41B867409003FFC30 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 24A68S5EUR;
 					};
 				};
 			};
@@ -112,6 +196,7 @@
 			projectRoot = "";
 			targets = (
 				E4A1B78B1B8673AF003FFC30 /* Custom Keyboard */,
+				E4A1B7A41B867409003FFC30 /* HodorBoard */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +212,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E4A1B7A31B867409003FFC30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A1B7B21B867701003FFC30 /* hodorHeadShot.png in Resources */,
+				E4A1B7B41B86A83F003FFC30 /* Hodor.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -139,7 +233,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E4A1B7A11B867409003FFC30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A1B7A81B867409003FFC30 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4A1B7AB1B867409003FFC30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4A1B7A41B867409003FFC30 /* HodorBoard */;
+			targetProxy = E4A1B7AA1B867409003FFC30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E4A1B7931B8673AF003FFC30 /* Main.storyboard */ = {
@@ -246,6 +356,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Custom Keyboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hologrampacific.Custom-Keyboard";
@@ -257,10 +368,39 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Custom Keyboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hologrampacific.Custom-Keyboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E4A1B7AE1B867409003FFC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HodorBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hologrampacific.Custom-Keyboard.HodorBoard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E4A1B7AF1B867409003FFC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HodorBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hologrampacific.Custom-Keyboard.HodorBoard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -283,6 +423,16 @@
 				E4A1B7A01B8673AF003FFC30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4A1B7AD1B867409003FFC30 /* Build configuration list for PBXNativeTarget "HodorBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4A1B7AE1B867409003FFC30 /* Debug */,
+				E4A1B7AF1B867409003FFC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
