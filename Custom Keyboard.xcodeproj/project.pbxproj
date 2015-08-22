@@ -44,6 +44,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E4259D181B890B3700DD2E1F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		E49305C61B86D65C003DC06F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		E4A1B78C1B8673AF003FFC30 /* Custom Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A1B78F1B8673AF003FFC30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +90,7 @@
 				E4A1B78E1B8673AF003FFC30 /* Custom Keyboard */,
 				E4A1B7A61B867409003FFC30 /* HodorBoard */,
 				E4A1B78D1B8673AF003FFC30 /* Products */,
+				E4259D181B890B3700DD2E1F /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
